@@ -1,22 +1,32 @@
 
 
-# ファイル構成について
-.
-├── README.md : 本ファイル
-├── package.json : パッケージ管理
-├── public
-│   ├── favicon.ico : アイコン
-│   ├── index.html : エントリポイント 
-│   ├── logo192.png : reactロゴ(template)
-│   ├── logo512.png : reactロゴ(template)
-│   ├── manifest.json : webマニフェスト(template)
-│   └── robots.txt : クロール制御ファイル(template)
-├── src :(コード関連)
-│   ├── App.tsx : メインコンポーネント
-│   └── index.tsx : エントリポイント
-├── tsconfig.json : typescript管理ファイル
-└── yarn.lock : yarn管理
+# cloneについて
+以下手順にてプロジェクトをcloneし、実行してください。
+ cd カレント
+ git clone https://github.com/yasuhiro-nogiwa/holidayPlan.git
+ npm install
+    ※パッケージのインストール
+ npm start
 
+
+# 基本的な構成
+> README.md : 本ファイル
+> package.json : パッケージ管理
+> public
+>> favicon.ico : アイコン
+>> index.html : エントリポイント 
+>> logo192.png : reactロゴ(template)
+>> logo512.png : reactロゴ(template)
+>> manifest.json : webマニフェスト(template)
+>> robots.txt : クロール制御ファイル(template)
+> src
+>> App.tsx : メインコンポーネント
+>> index.tsx : エントリポイント
+>> ...
+> tsconfig.json : typescript管理ファイル
+> yarn.lock : yarn管理
+
+                
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
