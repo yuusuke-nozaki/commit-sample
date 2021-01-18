@@ -1,30 +1,30 @@
 
 
 # cloneについて
-以下手順にてプロジェクトをcloneし、実行してください。
- cd カレント
- git clone https://github.com/yasuhiro-nogiwa/holidayPlan.git
- npm install
-    ※パッケージのインストール
- npm start
+以下手順にてプロジェクトをcloneし、実行してください。\n
+ cd カレント\n
+ git clone https://github.com/yasuhiro-nogiwa/holidayPlan.git\n
+ npm install\n
+    ※パッケージのインストール\n
+ npm start\n
 
 
 # 基本的な構成
-> README.md : 本ファイル
-> package.json : パッケージ管理
-> public
->> favicon.ico : アイコン
->> index.html : エントリポイント 
->> logo192.png : reactロゴ(template)
->> logo512.png : reactロゴ(template)
->> manifest.json : webマニフェスト(template)
->> robots.txt : クロール制御ファイル(template)
-> src
->> App.tsx : メインコンポーネント
->> index.tsx : エントリポイント
->> ...
-> tsconfig.json : typescript管理ファイル
-> yarn.lock : yarn管理
+> README.md : 本ファイル\n
+> package.json : パッケージ管理\n
+> public\n
+>> favicon.ico : アイコン\n
+>> index.html : エントリポイント \n
+>> logo192.png : reactロゴ(template)\n
+>> logo512.png : reactロゴ(template)\n
+>> manifest.json : webマニフェスト(template)\n
+>> robots.txt : クロール制御ファイル(template)\n
+> src\n
+>> App.tsx : メインコンポーネント\n
+>> index.tsx : エントリポイント\n
+>> ...\n
+> tsconfig.json : typescript管理ファイル\n
+> yarn.lock : yarn管理\n
 
                 
 # Getting Started with Create React App
