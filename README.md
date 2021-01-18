@@ -1,3 +1,18 @@
+
+
+# ファイル構成について
+.
++-- package-lock.json：package管理
++-- package.json：パッケージ管理
++-- public
+|   +-- index.html
++-- README.md：本ファイル
++-- src
+|   +-- App.tsx
+|   +-- index.tsx
++-- tsconfig.json：typescript管理ファイル
++-- yarn.lock：yarn管理ファイル
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
