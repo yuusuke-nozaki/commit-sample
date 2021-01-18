@@ -2,16 +2,20 @@
 
 # ファイル構成について
 .
-+-- package-lock.json：package管理
-+-- package.json：パッケージ管理
-+-- public
-|   +-- index.html
-+-- README.md：本ファイル
-+-- src
-|   +-- App.tsx
-|   +-- index.tsx
-+-- tsconfig.json：typescript管理ファイル
-+-- yarn.lock：yarn管理ファイル
+├── README.md : 本ファイル
+├── package.json : パッケージ管理
+├── public
+│   ├── favicon.ico : アイコン
+│   ├── index.html : エントリポイント 
+│   ├── logo192.png : reactロゴ(template)
+│   ├── logo512.png : reactロゴ(template)
+│   ├── manifest.json : webマニフェスト(template)
+│   └── robots.txt : クロール制御ファイル(template)
+├── src :(コード関連)
+│   ├── App.tsx : メインコンポーネント
+│   └── index.tsx : エントリポイント
+├── tsconfig.json : typescript管理ファイル
+└── yarn.lock : yarn管理
 
 # Getting Started with Create React App
 
